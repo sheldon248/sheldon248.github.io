@@ -81,3 +81,7 @@ body {
   color: #6e6e73;
   margin-top: 4px;
 }
+/* reset theme template style */
+.site-footer {
+  display: none !important;
+}
