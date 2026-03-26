@@ -1,0 +1,23 @@
+---
+layout: default
+title: 博客
+---
+
+<link rel="stylesheet" href="assets/style.css">
+
+<div class="section">
+  <h1>博客文章</h1>
+
+  <ul>
+    {% for post in site.posts %}
+      <li style="margin-bottom: 12px;">
+        <a href="{{ post.url }}" style="font-size: 20px; color: #4e8cff;">
+          {{ post.title }}
+        </a>
+        <div style="color: #777; font-size: 14px;">
+          {{ post.date | date: "%Y-%m-%d" }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
