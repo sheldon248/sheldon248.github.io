@@ -2,15 +2,12 @@
 layout: default
 title: 博客
 ---
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+    </li>
+  {% endfor %}
+</ul>
 
-<link rel="stylesheet" href="assets/style.css">
-<div class="apple-section">
-  <ul class="apple-post-list">
-    {% for post in site.posts %}
-      <li class="apple-post-item">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
