@@ -1,87 +1,21 @@
-/* Apple 风格字体 */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
   background: #f5f5f7;
   color: #1d1d1f;
-  line-height: 1.7;
 }
 
-/* Apple 导航栏 */
 .apple-nav {
   backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255,255,255,0.7);
   padding: 16px 40px;
   display: flex;
   justify-content: flex-end;
   border-bottom: 1px solid rgba(0,0,0,0.05);
 }
-.apple-nav a {
-  margin-left: 24px;
-  text-decoration: none;
-  color: #1d1d1f;
-  font-size: 15px;
-  font-weight: 500;
-}
-.apple-nav a:hover {
-  opacity: 0.6;
-}
 
-/* Apple 首页头部 */
-.apple-hero {
-  text-align: center;
-  padding: 140px 20px 100px;
-}
-.apple-hero h1 {
-  font-size: 52px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.apple-hero p {
-  font-size: 20px;
-  color: #6e6e73;
-}
-
-/* Apple 内容区 */
-.apple-section {
+.apple-container {
   max-width: 760px;
   margin: 60px auto;
-  background: #fff;
-  padding: 40px 50px;
-  border-radius: 22px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
-}
-.apple-section h2 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-/* Apple 风博客列表 */
-.apple-post-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.apple-post-item {
-  margin-bottom: 24px;
-}
-.apple-post-item a {
-  font-size: 22px;
-  text-decoration: none;
-  color: #0071e3;
-  font-weight: 500;
-}
-.apple-post-item a:hover {
-  text-decoration: underline;
-}
-.apple-post-item span {
-  display: block;
-  font-size: 14px;
-  color: #6e6e73;
-  margin-top: 4px;
-}
-/* reset theme template style */
-.site-footer {
-  display: none !important;
+  padding: 20px;
 }
