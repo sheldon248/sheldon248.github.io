@@ -4,6 +4,7 @@ title: 博客
 ---
 <h1>博客</h1>
 {{ paginator | inspect }}
+{{site | inspect }}
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-item">
