@@ -112,3 +112,28 @@ h1, h2 {
   color: #6b6b6b;
   margin-top: 4px;
 }
+.pagination {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-btn {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #ff8a00, #e52e71);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.page-btn:hover {
+  opacity: 0.8;
+}
+
+.page-number {
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
