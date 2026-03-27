@@ -5,7 +5,7 @@ body {
   color: #1d1d1f;
 }
 
-.apple-nav {
+.sheldon-nav {
   backdrop-filter: blur(20px);
   background: rgba(255,255,255,0.7);
   padding: 16px 40px;
@@ -14,7 +14,7 @@ body {
   border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
-.apple-container {
+.sheldon-container {
   max-width: 760px;
   margin: 60px auto;
   padding: 20px;
