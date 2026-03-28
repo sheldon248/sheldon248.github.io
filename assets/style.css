@@ -136,4 +136,11 @@ h1, h2 {
   color: #6b6b6b;
   font-size: 14px;
 }
+.aside{
+  position:fixed;
+  top:10%;
+  bottom:10%;
+  right:0
+}
+  
 
