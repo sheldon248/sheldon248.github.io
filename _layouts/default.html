@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/style.css">
-</head>
-<body>
-<nav class="nav">
-  <div class="nav-inner">
-    <a href="/" class="nav-logo">Sheldon & Sukey</a>
-    <div class="nav-links">
-      <a href="/">首页</a>
-      <a href="/blog">博客</a>
-      <a href="/about">关于</a>
-    </div>
-  </div>
-</nav>
-<main class="container">
-  {{ content }}
-</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo">Sheldon & Sukey</a>
+        <div class="nav-links">
+          <a href="/">首页</a>
+          <a href="/blog">博客</a>
+          <a href="/about">关于</a>
+        </div>
+      </div>
+    </nav>
+    <aside>
+      <h3>导航</h3>
+      <ul>
+        <li><a href="/">首页</a></li>
+        <li><a href="/blog/">博客</a></li>
+        <li><a href="/about/">关于我</a></li>
+        <li><a href="/links/">友情链接</a></li>
+      </ul>
+    </aside>
+    <main class="container">{{ content }}</main>
+  </body>
 </html>
