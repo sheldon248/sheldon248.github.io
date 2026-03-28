@@ -2,9 +2,11 @@
 layout: default
 title: 博客
 ---
-<h1>博客1</h1>
+<h1>博客11</h1>
 {{ site.paginator | inspect  }}
 {{ paginator | inspect  }}
+{{ site.plugins | inspect  }}
+{{ plugins | inspect  }}
 {{ site.time }}
 <ul class="post-list">
   {% for post in site.posts %}
