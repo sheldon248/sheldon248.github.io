@@ -6,4 +6,6 @@ future: true
 remote_theme: "jeffreytse/jekyll-theme-yat"
 plugins:
   - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
 
