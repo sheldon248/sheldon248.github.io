@@ -48,11 +48,9 @@ body {
 }
 
 /* 页面容器 */
-.container {
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 0 24px;
-   background: #fff;
+.container { 
+  margin: 24px auto;
+  padding: 0 24px; 
 }
 
 /* 卡片 */
