@@ -47,8 +47,7 @@ body {
 
 /* 页面容器 */
 .container { 
-  margin: 24px auto;
-  padding: 0 24px; 
+  margin: 24px;
 }
 
 /* 卡片 */
@@ -79,7 +78,8 @@ body {
 /* 博客列表 */
 .post-list {
   list-style: none;
-  padding: 0;
+  padding: 8px 24px;
+  background:#fff;
 }
 
 .post-item {
