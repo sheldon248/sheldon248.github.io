@@ -1,9 +1,9 @@
 /* 字体体系 */
 body {
-  --main-color：#A8A39D;
-  --secondary-color：#C4B7A6;
-  --bg-color：#F2F0ED;
-  --underline-color：#6B5E62;
+  --main-color:#A8A39D;
+  --secondary-color:#C4B7A6;
+  --bg-color:#F2F0ED;
+  --underline-color:#6B5E62;
   --radius: 4px;
   --fs14: 14px;
   margin: 0;
