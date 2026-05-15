@@ -46,8 +46,7 @@ body {
 }
 
 /* 页面容器 */
-.container { 
-  margin: 24px;
+.container {  
   height:calc(100vh - 52px);
   overflow-y:auto;
   background:#fff;
