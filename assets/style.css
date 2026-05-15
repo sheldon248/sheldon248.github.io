@@ -54,10 +54,11 @@ body {
 /* 页面容器 */
 .container {  
   height:calc(100vh - 100px);
+  box-sizing:border-box;
   overflow-y:auto;
   background:#fff;
   margin:24px;
-  padding:0 24px;
+  padding:8px 24px;
 }
 
 /* 卡片 */
