@@ -3,7 +3,6 @@ description: 博客
 paginate: 10
 paginate_path: "/blog/page:num"
 future: true
-theme: jekyll-theme-minimal
 plugins:
   - jekyll-paginate
  
