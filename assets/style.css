@@ -1,6 +1,8 @@
 /* 字体体系 */
 *{
   margin:0;
+  padding:0;
+  list-style: none;
   text-decoration: none; 
 }
 body {
@@ -85,8 +87,6 @@ body {
 
 /* 博客列表 */
 .post-list {
-  list-style: none;
-  padding: 8px 24px;
   background:#fff;
 }
 
