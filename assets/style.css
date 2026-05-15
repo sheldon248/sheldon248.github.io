@@ -1,10 +1,8 @@
 /* 字体体系 */
 body {
-  --main-color:#0D0D0D;
-  --secondary-color:#C4B7A6;
   --green:#42b883;
-  --bg-color:#F2F0ED;
-  --underline-color:#6B5E62;
+  --green-dack:#33a06;  
+  --bg-color:#F2F0ED; 
   --radius: 4px;
   --fs14: 14px;
   margin: 0;
@@ -17,7 +15,7 @@ body {
 
 /* 导航栏 */
 .nav {
-  background: var(--green);
+  background: var( --green);
   backdrop-filter: blur(12px); 
   position: sticky;
   top: 0;
@@ -66,10 +64,6 @@ body {
   margin-bottom: 24px;
 }
 
-/* 标题 */
-h1, h2 {
-  font-weight: 600; 
-}
 
 /* Anthropic 风渐变按钮 */
 .btn {
