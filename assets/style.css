@@ -1,10 +1,10 @@
 /* 字体体系 */
 body {
-  --main-color：#A8A39D
-  --secondary-color：#C4B7A6
-  --bg-color：#F2F0ED
+  --main-color：#A8A39D;
+  --secondary-color：#C4B7A6;
+  --bg-color：#F2F0ED;
   --underline-color：#6B5E62;
-  --radius: 8px;
+  --radius: 4px;
   --fs14: 14px;
   margin: 0;
   background: var(--bg-color);
