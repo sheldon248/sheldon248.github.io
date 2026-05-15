@@ -2,6 +2,7 @@
 body {
   --main-color:#0D0D0D;
   --secondary-color:#C4B7A6;
+  --green:#42b883;
   --bg-color:#F2F0ED;
   --underline-color:#6B5E62;
   --radius: 4px;
@@ -16,7 +17,7 @@ body {
 
 /* 导航栏 */
 .nav {
-  background: var(--bg-color);
+  background: var(--green);
   backdrop-filter: blur(12px); 
   position: sticky;
   top: 0;
@@ -34,16 +35,14 @@ body {
 
 .nav-logo {
   font-size: 20px;
-  font-weight: 600;
-  background: linear-gradient(135deg, #ff8a00, #e52e71);
-  -webkit-background-clip: text;
-  color: transparent;
+  font-weight: 600; 
+  color: #fff;
   text-decoration: none;
 }
 
 .nav-links a {
   margin-left: 24px;
-  color: var(--main-color);
+  color: #fff;
   text-decoration: none; 
 }
 .nav-links a:hover {
