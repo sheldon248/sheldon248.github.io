@@ -3,7 +3,7 @@ body {
   --main-color：#A8A39D
   --secondary-color：#C4B7A6
   --bg-color：#F2F0ED
-  --underline-color：#6B5E62
+  --underline-color：#6B5E62;
   --radius: 8px;
   --fs14: 14px;
   margin: 0;
@@ -43,6 +43,7 @@ body {
 
 .nav-links a {
   margin-left: 24px;
+  color: var(--main-color);
   text-decoration: none; 
 }
 .nav-links a:hover {
