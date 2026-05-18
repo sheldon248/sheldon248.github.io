@@ -62,14 +62,6 @@ body {
   border-radius: var(--radius);
 }
 
-/* 卡片 */
-.card {
-  background: #ffffff;
-  padding:8px 24px;
-  border-radius: var(--radius);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-  margin-bottom: 24px;
-}
 
 
 /* Anthropic 风渐变按钮 */
