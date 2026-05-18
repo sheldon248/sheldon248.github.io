@@ -59,6 +59,7 @@ body {
   background:#fff;
   margin:24px;
   padding:8px 24px;
+  border-radius: var(--radius);
 }
 
 /* 卡片 */
