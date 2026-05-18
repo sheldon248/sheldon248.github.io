@@ -9,13 +9,13 @@ body {
   --green:#42b883;
   --green-dack:#33a06;  
   --bg-color:#F2F0ED; 
-  --radius: 4px;
+  --radius: 8px;
   --fs14: 14px;
   margin: 0;
   background: var(--bg-color);
   font-family: menlo;
   color: var(--main-color);
-  line-height: 1.8;
+  line-height: 1.6;
   font-size:var(--fs14)
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .post-item {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .post-item a { 
