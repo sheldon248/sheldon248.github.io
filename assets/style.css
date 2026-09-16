@@ -7,16 +7,17 @@
     box-sizing: border-box;
 }
 body {
-    --green: #1fa87a;
+    --theme-color: #1fa87a;
     --radius: 8px;
     --fs14: 14px;
+    --bg-color: #f2f0ed;
     margin: 0;
     background: var(--bg-color);
     font: 14px/18px "Fira Code Retina";
 }
 
 .nav {
-    background: var(--green);
+    background: var(--theme-color);
     backdrop-filter: blur(12px);
     position: sticky;
     top: 0;
