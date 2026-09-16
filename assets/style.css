@@ -32,7 +32,7 @@ body {
             margin-left: 24px;
             color: #fff;
             &:hover {
-                opacity: 0.6;
+                opacity: 0.8;
             }
         }
     }
@@ -52,18 +52,17 @@ body {
     border-radius: var(--radius);
 }
 .post-item {
-    margin-bottom: 8px;
-    a {
-        font-weight: 600;
-        color: var(--color);
-        &:hover {
-            opacity: 0.8;
-        }
-    }
+    margin-bottom: 8px;   
 }
 
 .pagination {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.link{
+    color: var(--color);
+    &:hover {
+        opacity: 0.8;
+    }
 }
