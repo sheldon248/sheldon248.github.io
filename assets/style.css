@@ -18,25 +18,25 @@ body {
 }
 
 .nav {
-    background: var(--theme-color); 
+    background: var(--theme-color);
     position: sticky;
     top: 0;
     z-index: 100;
-    .nav-inner {
-        padding: 8px 24px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .nav-links {
-            a {
-                margin-left: 24px;
-                color: #fff;
-                &:hover {
-                    opacity: 0.6;
-                }
+    padding: 0 24px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-links {
+        a {
+            margin-left: 24px;
+            color: #fff;
+            &:hover {
+                opacity: 0.6;
             }
         }
     }
+
     .nav-logo {
         font-size: 20px;
         font-weight: 600;
