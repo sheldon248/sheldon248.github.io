@@ -1,69 +1,67 @@
 /* 字体体系 */
-*{
-  margin:0;
-  padding:0;
-  list-style: none;
-  text-decoration: none; 
-  box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 body {
-  --green:#1fa87a; 
-  --radius: 8px;
-  --fs14: 14px;
-  margin: 0;
-  background: var(--bg-color);
-  font: 14px/18px "Fira Code Retina";
+    --green: #1fa87a;
+    --radius: 8px;
+    --fs14: 14px;
+    margin: 0;
+    background: var(--bg-color);
+    font: 14px/18px "Fira Code Retina";
 }
-
 
 .nav {
-  background: var( --green);
-  backdrop-filter: blur(12px); 
-  position: sticky;
-  top: 0;
-  z-index: 100;
+    background: var(--green);
+    backdrop-filter: blur(12px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
     .nav-inner {
-      padding: 8px 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-        .nav-links a {
-          margin-left: 24px;
-          color: #fff;
-        
-        }
-        .nav-links a:hover {
-           opacity: 0.6;
+        padding: 8px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-links {
+            a {
+                margin-left: 24px;
+                color: #fff;
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
         }
     }
-        .nav-logo {
-          font-size: 20px;
-          font-weight: 600;
-          color: #fff; 
-        }
+    .nav-logo {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
 }
-.container {  
-  height:calc(100vh - 100px);
-  overflow-y:auto;
-  background:#fff;
-  margin:16px;
-  padding:16px 24px;
-  border-radius: var(--radius);
+.container {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    background: #fff;
+    margin: 16px;
+    padding: 16px 24px;
+    border-radius: var(--radius);
 }
 .post-item {
-  margin-bottom: 8px;
-}
-.post-item a { 
-  font-weight: 600; 
-}
-.post-item a:hover {
-  opacity: 0.8;
-}
-.pagination { 
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+    margin-bottom: 8px;
+    a {
+        font-weight: 600;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
 }
 
-
-
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
