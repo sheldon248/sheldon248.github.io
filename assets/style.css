@@ -4,121 +4,66 @@
   padding:0;
   list-style: none;
   text-decoration: none; 
+  box-sizing:border-box;
 }
 body {
-  --green:#42b883;
-  --green-dack:#33a06;  
-  --bg-color:#F2F0ED; 
+  --green:#1fa87a; 
   --radius: 8px;
   --fs14: 14px;
   margin: 0;
   background: var(--bg-color);
-  font-family: menlo;
-  color: var(--main-color);
-  line-height: 1.6;
-  font-size:var(--fs14)
+  font: 14px/18px "Fira Code Retina";
 }
 
-/* 导航栏 */
+
 .nav {
   background: var( --green);
   backdrop-filter: blur(12px); 
   position: sticky;
   top: 0;
   z-index: 100;
+    .nav-inner {
+      padding: 8px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+        .nav-links a {
+          margin-left: 24px;
+          color: #fff;
+        
+        }
+        .nav-links a:hover {
+           opacity: 0.6;
+        }
+    }
+        .nav-logo {
+          font-size: 20px;
+          font-weight: 600;
+          color: #fff; 
+        }
 }
-
-.nav-inner {
-  padding: 8px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-logo {
-  font-size: 20px;
-  font-weight: 600; 
-  color: #fff;
- 
-}
-
-.nav-links a {
-  margin-left: 24px;
-  color: #fff;
-
-}
-.nav-links a:hover {
-  opacity: 0.6;
-}
-
-/* 页面容器 */
 .container {  
   height:calc(100vh - 100px);
-  box-sizing:border-box;
   overflow-y:auto;
   background:#fff;
   margin:16px;
   padding:16px 24px;
   border-radius: var(--radius);
 }
-
-
-
-/* Anthropic 风渐变按钮 */
-.btn {
-  display: inline-block;
-  padding: 8px 24px;
-  background: linear-gradient(135deg, #ff8a00, #e52e71);
-  color: #fff;
-  border-radius: var(--radius);
-  text-decoration: none;
-  transition: 0.2s;
-}
-.btn:hover {
-  box-shadow: 0 0 20px rgba(229, 46, 113, 0.4);
-  transform: translateY(-2px);
-}
-
-/* 博客列表 */
-.post-list {
-  background:#fff;
-}
-
 .post-item {
   margin-bottom: 8px;
 }
-
 .post-item a { 
-  font-weight: 600;
-  background: linear-gradient(135deg, #ff8a00, #e52e71);
-  -webkit-background-clip: text;
-  color: transparent;
- 
+  font-weight: 600; 
 }
-
 .post-item a:hover {
   opacity: 0.8;
 }
-
-.post-date {
-  display: block; 
-}
 .pagination { 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.page-btn {
-  padding: 8px 24px;
-  background: linear-gradient(135deg, #ff8a00, #e52e71);
-  color: #fff;
-  border-radius: var(--radius);
- 
-}
-
-.page-btn:hover {
-  opacity: 0.8;
-}
 
 
