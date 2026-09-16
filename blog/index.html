@@ -5,7 +5,7 @@ title: 博客首页
 <ul class="post-list">
   {% for post in paginator.posts %}
     <li class="post-item">
-      {{ forloop.index1  | plus: paginator.per_page | times: paginator.page | minus: paginator.per_page }}.
+      {{ forloop.index  | plus: paginator.per_page | times: paginator.page | minus: paginator.per_page }}.
       <a class='link' href="{{ post.url }}">{{ post.title }}</a>
       <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
     </li>
