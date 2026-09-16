@@ -47,9 +47,10 @@ body {
     height: calc(100vh - 72px);
     overflow-y: auto;
     background: #fff;
-    margin: 16px;
+    margin: 16px auto;
     padding: 16px 24px;
     border-radius: var(--radius);
+    max-width: 1000px;
 }
 .post-item {
     margin-bottom: 8px;  
