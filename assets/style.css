@@ -30,7 +30,7 @@ body {
     .nav-links {
         a {
             margin-left: 24px;
-            color: #fff;
+            color: #fff;            
             &:hover {
                 opacity: 0.8;
             }
@@ -52,7 +52,10 @@ body {
     border-radius: var(--radius);
 }
 .post-item {
-    margin-bottom: 8px;   
+    margin-bottom: 8px;  
+    a {
+        font-weight:500;
+    }
 }
 
 .pagination {
