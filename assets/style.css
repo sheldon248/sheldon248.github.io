@@ -64,7 +64,7 @@ body {
     align-items: center;
 }
 .link{
-    color: var(--color);
+    color: var( --theme-color);
     &:hover {
         opacity: 0.8;
     }
