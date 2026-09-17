@@ -48,12 +48,12 @@ body {
     overflow-y: auto;
     background: #fff;
     margin: 16px auto;
-    padding: 16px 24px;
+    padding: 24px;
     border-radius: var(--radius);
     max-width: 1000px;
 }
 .post-item {
-    margin-bottom: 8px;  
+    margin-bottom: 16px;  
     a {
         font-weight:500;
     }
