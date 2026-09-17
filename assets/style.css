@@ -27,7 +27,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .nav-logo {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
     .nav-links {
+        font-weight: 500;
         a {
             margin-left: 24px;
             color: #fff;            
@@ -35,13 +41,7 @@ body {
                 opacity: 0.8;
             }
         }
-    }
-
-    .nav-logo {
-        font-size: 20px;
-        font-weight: 600;
-        color: #fff;
-    }
+    }    
 }
 .container {
     height: calc(100vh - 72px);
